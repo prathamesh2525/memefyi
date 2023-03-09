@@ -11,7 +11,7 @@ export const Home = () => {
     getAllMemes().then((memes) => setMemes(memes.data.memes))
   }, [])
   return (
-    <div className="gradient-two">
+    <div className="gradient-two h-screen">
       <div className="w-[80%]">
         <h1 className="text-4xl font-bold pt-8 text-white">Meme Generator</h1>
         <div className="flex justify-center items-center relative">
