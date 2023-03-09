@@ -12,7 +12,7 @@ export const Home = () => {
   }, [])
   return (
     <div className="gradient-two">
-      <div className="w-[80%]">
+      <div>
         <h1 className="text-4xl font-bold pt-8 text-white">Meme Generator</h1>
         <div className="flex justify-center items-center relative">
           <div className="fixed bottom-5 left-4 px-4 py-2 text-2xl bg-blue-500 transition duration-200  hover:bg-blue-700 font-bold text-white rounded-xl">
